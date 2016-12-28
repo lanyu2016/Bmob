@@ -22,7 +22,7 @@ public class BaseArrayListAdapter extends BaseAdapter {
 		mContext = context;
 		mInflater = LayoutInflater.from(context);
 		if (datas != null && datas.length > 0) {
-			
+
 			mDatas = Arrays.asList(datas);
 		}
 	}
