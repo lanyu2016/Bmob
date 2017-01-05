@@ -32,7 +32,6 @@ public class AddFriendAdapter extends BaseListAdapter<BmobChatUser> {
 
 	public AddFriendAdapter(Context context, List<BmobChatUser> list) {
 		super(context, list);
-
 	}
 
 	@Override
